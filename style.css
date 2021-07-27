@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.announcement {
+    font-size: 18px;
+    background-color: chartreuse;
+    color: black;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.campus_maindiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.campus_maindiv img{
+    width: 100%;
+    height: 250px;
+}
+.campus_maindiv hr{
+    width: 75%;
+}
+.campus_maindiv h5, .campus_maindiv p;{
+    margin-left: 20px;
+}
+#p1{
+    text-align: center;
+    width: 100%;
+}
